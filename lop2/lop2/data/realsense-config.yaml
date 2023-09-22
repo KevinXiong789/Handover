@@ -1,0 +1,9 @@
+
+# Node namespace and node name are required:
+
+tableCamera:
+  tableCamera:
+    ros__parameters:  # Double underscore!
+      depth_module:
+        enable_auto_exposure: true
+        emitter_always_on: true

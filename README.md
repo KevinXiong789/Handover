@@ -17,7 +17,7 @@ Before this repository can be used properly, the following need to be installed:
 * [lightweight Openpose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) code are already realized in **lop2**
 * [Nuitrack install](https://github.com/3DiVi/nuitrack-sdk) + for [python beta](https://github.com/3DiVi/nuitrack-sdk/blob/master/PythonNuitrack-beta/README.MD)
 * [UR Robot Driver install](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver) (better build from source and put the pkg **"robot_control"** in **"your workspace/src"**)
-* [InfluxDB-client](https://www.influxdata.com/blog/getting-started-python-influxdb/) for python *(and you also need to have your own InfluxDB account)*
+* [InflxDB Download](https://portal.influxdata.com/downloads/) and [InfluxDB-client](https://www.influxdata.com/blog/getting-started-python-influxdb/) for python *(and you also need to have your own InfluxDB account)*
 
 ## How to run this repo
 The launch files to start the camera and connect the robot using Openpose and Nuitrack are **lop2/lop2/launch/main.launch.py** and **nuitrack_pointcloud/launch/nuitrack.launch.py** respectively. After that, you need to switch the robot to remote mode and run the programme in URCap, then run the specified launch file to set the robot speed, and then start the launch file for the state machine for the robot to start moving.

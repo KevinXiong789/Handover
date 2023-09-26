@@ -48,7 +48,7 @@ In workspace, Terminal 1:
 Connect with real Robot:
 * Load the programme in contro Panel
 * Control Panel Connect to IP Adress in the Teach Panel
-* In Panel switch to remote control, in computer ~/Downloads: sh SocketTest.sh
+* In Panel switch to remote control, in computer ~/Downloads: sh SocketTest.sh (this file is located on the computer downstairs next to the robot)
 * IP and Port: 172.21.19.98 and 29999
 * Send Message play
 
